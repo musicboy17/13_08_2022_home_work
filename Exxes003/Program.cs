@@ -15,6 +15,8 @@ else
 {
     if (number[0] == number[4] && number[1] == number[3])
     Console.WriteLine("Введенное число палиндром!");
+
+    else {Console.WriteLine("Введенное число не палиндром!!!");
+}
 }
 
-Console.WriteLine("Введенное число не палиндром!!!");
