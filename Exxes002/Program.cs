@@ -18,11 +18,7 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координату Z второй точки: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-double result = Math.Sqrt(Math.Pow(x1 - x2,2) + (y1 - y2,2) + (z1 - z2,2));
+double result = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2) + Math.Pow(z1 - z2,2));
 
 Console.WriteLine($"Расстояние равно: {Math.Round(result,2)}");
-
-
-
-
 
